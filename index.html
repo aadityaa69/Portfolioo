@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaditya Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-ring" aria-hidden="true"></div>
+
+    <header class="topbar">
+        <nav class="nav-shell">
+            <a class="brand" href="#home" aria-label="Go to home">
+                <span class="brand-avatar"></span>
+                <span class="brand-name">aaditya<span class="brand-dot">.</span></span>
+            </a>
+
+            <div class="nav-links">
+                <span class="nav-highlight" aria-hidden="true"></span>
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#upcoming" class="nav-link">Upcoming</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <a href="#contact" class="resume-btn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M7 3.75h7.1l4.15 4.16v10.34A2.75 2.75 0 0 1 15.5 21h-8A2.75 2.75 0 0 1 4.75 18.25V6.5A2.75 2.75 0 0 1 7.5 3.75Zm6.5 1.5v3.5h3.5"></path>
+                    <path d="M8.5 12h7"></path>
+                    <path d="M8.5 15.5h7"></path>
+                </svg>
+                Resume
+            </a>
+        </nav>
+    </header>
+
+    <main class="page">
+        <section id="home" class="section hero-section">
+            <div class="badge badge-collab">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8.5 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
+                    <path d="M15.5 18a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
+                    <path d="m10.6 9.34 3.07 5.32"></path>
+                    <path d="M15.5 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"></path>
+                    <path d="m10.74 9.07 2.52-1.14"></path>
+                </svg>
+                Open for collabs - 2025
+            </div>
+
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <h1>Hey, I'm Aaditya. I make games.</h1>
+                    <p>Indie dev building tight loops, weird mechanics, and shaders that go <em>woosh</em> - in Unity, Unreal &amp; Godot.</p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="pill-btn pill-light">See my work -&gt;</a>
+                        <a href="#contact" class="pill-btn pill-dark">Get in touch</a>
+                    </div>
+                </div>
+
+                <div class="portrait-wrap">
+                    <div class="portrait-glow"></div>
+                    <div class="portrait-frame">
+                        <div class="portrait-photo"></div>
+                    </div>
+                    <div class="speech-bubble">hi!</div>
+                </div>
+            </div>
+
+            <div class="stats-row">
+                <article class="stat-card">
+                    <strong>1</strong>
+                    <span>YEARS</span>
+                </article>
+                <article class="stat-card">
+                    <strong>1</strong>
+                    <span>GAMES MADE</span>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section">
+            <div class="section-head">
+                <span class="eyebrow">01 - WORK</span>
+                <h2>Shipped</h2>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-media neon-drift">
+                        <span class="status-badge">Shipped</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Neon Drift</h3>
+                        <p>Synthwave arcade racer with hand-tuned drift physics.</p>
+                        <div class="tag-row">
+                            <span class="tag">Unity</span>
+                            <span class="tag">2024</span>
+                        </div>
+                        <div class="action-row">
+                            <a href="#" class="project-btn project-btn-dark">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="m9.5 9.5 5 5"></path>
+                                    <path d="m14.5 9.5-5 5"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="#" class="project-btn project-btn-pink">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M7 8.75h10A2.25 2.25 0 0 1 19.25 11v4A2.25 2.25 0 0 1 17 17.25H7A2.25 2.25 0 0 1 4.75 15v-4A2.25 2.25 0 0 1 7 8.75Z"></path>
+                                    <path d="M8.5 8.75V7a1.75 1.75 0 1 1 3.5 0v1.75"></path>
+                                    <path d="M12 12.5h.01"></path>
+                                </svg>
+                                itch.io
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-media hollow-keep">
+                        <span class="status-badge">Shipped</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Hollow Keep</h3>
+                        <p>Cozy roguelike about a lantern, a cat, and a haunted castle.</p>
+                        <div class="tag-row">
+                            <span class="tag">Godot</span>
+                            <span class="tag">2023</span>
+                        </div>
+                        <div class="action-row">
+                            <a href="#" class="project-btn project-btn-dark">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="m9.5 9.5 5 5"></path>
+                                    <path d="m14.5 9.5-5 5"></path>
+                                </svg>
+                                GitHub
+                            </a>
+                            <a href="#" class="project-btn project-btn-pink">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M7 8.75h10A2.25 2.25 0 0 1 19.25 11v4A2.25 2.25 0 0 1 17 17.25H7A2.25 2.25 0 0 1 4.75 15v-4A2.25 2.25 0 0 1 7 8.75Z"></path>
+                                    <path d="M8.5 8.75V7a1.75 1.75 0 1 1 3.5 0v1.75"></path>
+                                    <path d="M12 12.5h.01"></path>
+                                </svg>
+                                itch.io
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="upcoming" class="section upcoming-section">
+            <div class="section-head">
+                <span class="eyebrow">02 - WORKBENCH</span>
+                <h2>Upcoming</h2>
+            </div>
+
+            <article class="upcoming-card">
+                <div class="upcoming-media"></div>
+                <div class="upcoming-copy">
+                    <span class="badge badge-progress">In Progress</span>
+                    <h3>Deep Signal</h3>
+                    <p>Submarine survival horror told entirely through sonar.</p>
+                    <div class="tag-row">
+                        <span class="tag">Unreal 5</span>
+                        <span class="tag">2025</span>
+                    </div>
+                    <a href="#" class="project-btn project-btn-dark single-btn">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="m9.5 9.5 5 5"></path>
+                            <path d="m14.5 9.5-5 5"></path>
+                        </svg>
+                        GitHub
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="section-head">
+                <span class="eyebrow">03 - ABOUT</span>
+                <h2>About me &amp; skills</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>I started learning game development in 2023. Right now I mainly work with Unreal, Unity, C#, and C++.</p>
+                    <p>My focus is building gameplay systems, improving my programming skills, and turning what I learn into playable projects.</p>
+
+                    <div class="skills-grid">
+                        <article class="skill-card">
+                            <h3>Unreal Engine</h3>
+                            <span>MAIN ENGINE</span>
+                        </article>
+                        <article class="skill-card">
+                            <h3>Unity</h3>
+                            <span>SECONDARY ENGINE</span>
+                        </article>
+                        <article class="skill-card">
+                            <h3>C#</h3>
+                            <span>GAMEPLAY SCRIPTING</span>
+                        </article>
+                        <article class="skill-card">
+                            <h3>C++</h3>
+                            <span>CORE PROGRAMMING</span>
+                        </article>
+                    </div>
+                </div>
+
+                <aside class="timeline-card">
+                    <span class="timeline-label">PROGRESS</span>
+                    <div class="timeline">
+                        <article class="timeline-item">
+                            <span class="timeline-dot"></span>
+                            <h3>2023</h3>
+                            <p>Started learning game development and the basics of engines and programming.</p>
+                        </article>
+                        <article class="timeline-item">
+                            <span class="timeline-dot"></span>
+                            <h3>2024</h3>
+                            <p>Learned more seriously and built small projects to practice workflow and gameplay.</p>
+                        </article>
+                        <article class="timeline-item">
+                            <span class="timeline-dot"></span>
+                            <h3>2025</h3>
+                            <p>Started making bigger projects and focusing more on real game development.</p>
+                        </article>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="section-head">
+                <span class="eyebrow">04 - CONTACT</span>
+                <h2>Say hi</h2>
+            </div>
+
+            <div class="contact-grid">
+                <form id="contactForm" class="contact-form">
+                    <label class="field">
+                        <span>Name</span>
+                        <input type="text" id="name" placeholder="Your name" required>
+                    </label>
+                    <label class="field">
+                        <span>Email</span>
+                        <input type="email" id="email" placeholder="you@studio.com" required>
+                    </label>
+                    <label class="field">
+                        <span>Subject</span>
+                        <input type="text" id="subject" placeholder="What is this about?">
+                    </label>
+                    <label class="field">
+                        <span>Message</span>
+                        <textarea id="message" placeholder="What's on your mind?" required></textarea>
+                    </label>
+                    <button type="submit" class="pill-btn pill-light form-submit">Send -&gt;</button>
+                    <p class="form-feedback" id="formSuccess" role="status" aria-live="polite"></p>
+                </form>
+
+                <div class="social-column">
+                    <span class="timeline-label">ELSEWHERE</span>
+
+                    <a href="https://www.instagram.com/_aadityaaa14/" class="social-card">
+                        <span class="social-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <rect x="4.75" y="4.75" width="14.5" height="14.5" rx="4"></rect>
+                                <circle cx="12" cy="12" r="3.25"></circle>
+                                <circle cx="16.5" cy="7.5" r="1"></circle>
+                            </svg>
+                        </span>
+                        <span class="social-copy">
+                            <strong>Instagram</strong>
+                            <small>@_aadityaaa14</small>
+                        </span>
+                        <span class="social-meta">Open</span>
+                    </a>
+
+                    <a href="https://discord.gg/s4fFRZDYMY" class="social-card">
+                        <span class="social-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8 18.25c4.65 1.22 8.75-1.72 8.75-6.54A4.72 4.72 0 0 0 12 7.25a4.72 4.72 0 0 0-4.75 4.46c0 1.12.4 2.15 1.07 2.95L8 18.25Z"></path>
+                            </svg>
+                        </span>
+                        <span class="social-copy">
+                            <strong>Discord</strong>
+                            <small>de_batman.</small>
+                        </span>
+                        <span class="social-meta">Open</span>
+                    </a>
+
+                    <a href="https://h3rcules-07.itch.io/" class="social-card">
+                        <span class="social-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M7 8.75h10A2.25 2.25 0 0 1 19.25 11v4A2.25 2.25 0 0 1 17 17.25H7A2.25 2.25 0 0 1 4.75 15v-4A2.25 2.25 0 0 1 7 8.75Z"></path>
+                                <path d="M8.5 8.75V7a1.75 1.75 0 1 1 3.5 0v1.75"></path>
+                                <path d="M12 12.5h.01"></path>
+                            </svg>
+                        </span>
+                        <span class="social-copy">
+                            <strong>itch.io</strong>
+                            <small>h3rcules-07.itch.io</small>
+                        </span>
+                        <span class="social-meta">Open</span>
+                    </a>
+
+                    <a href="https://github.com/aadityaa69" class="social-card">
+                        <span class="social-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M8.5 16.5c-1.66 0-3-1.34-3-3 0-1.22.73-2.28 1.78-2.75A3.5 3.5 0 0 1 12 6.75a3.5 3.5 0 0 1 4.72 4c1.05.47 1.78 1.53 1.78 2.75 0 1.66-1.34 3-3 3"></path>
+                                <path d="M9 17.25c1.28.66 4.72.66 6 0"></path>
+                                <path d="M10.25 11.75h.01"></path>
+                                <path d="M13.75 11.75h.01"></path>
+                            </svg>
+                        </span>
+                        <span class="social-copy">
+                            <strong>GitHub</strong>
+                            <small>aadityaa69</small>
+                        </span>
+                        <span class="social-meta">Open</span>
+                    </a>
+
+                    <button type="button" class="social-card social-card-button" id="copyEmail">
+                        <span class="social-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M5.25 7.25h13.5a1 1 0 0 1 1 1v9.5a2 2 0 0 1-2 2H6.25a2 2 0 0 1-2-2v-9.5a1 1 0 0 1 1-1Z"></path>
+                                <path d="m5 8 7 5 7-5"></path>
+                            </svg>
+                        </span>
+                        <span class="social-copy">
+                            <strong>Email</strong>
+                            <small>aadityaa0069@gmail.com</small>
+                        </span>
+                        <span class="social-meta">Copy</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="copy-toast" id="copyToast" role="status" aria-live="polite" aria-atomic="true">
+        Email copied
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
